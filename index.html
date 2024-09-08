@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: black;
+        }
+
+        .nav {
+            display: flex;
+            padding: 1%;
+            gap: 40px;
+            background-color: skyblue;
+            position: sticky;
+        }
+
+        .nav h2 {
+            border-radius: 40px;
+            border: solid;
+            padding: 5px;
+            background-color: pink;
+        }
+
+        .nav h3 {
+            padding-top: 10px;
+            color: black;
+            background-color: skyblue;
+
+        }
+
+        .nav h3:hover {
+            color: brown;
+            transform: scale(-0.9);
+            transition: all .2s ease-in-out;
+            
+        }
+
+        #artist p:hover {
+            color: brown;
+            transform: scale(0.9);
+            transition: all .2s ease-in-out;
+        }
+
+        #artist img:hover {
+            color: brown;
+            transform: scale(0.9);
+            transition: all .2s ease-in-out;
+        }
+
+        button {
+            text-align: center;
+            width: 8%;
+            margin-left: 40%;
+            border: none;
+            text-decoration: none;
+            outline: none;
+            text-decoration: none;
+            background-color: skyblue;
+        }
+
+        .songs1 {
+            text-align: center;
+
+        }
+
+        #artist {
+            display: flex;
+            padding-left: 30px;
+            color: aquamarine;
+        }
+
+        #artist img {
+            margin: 20px;
+            border-radius: 50%;
+
+        }
+
+        .artists h3 {
+            padding-top: 10px;
+            border-radius: 40px;
+            border: solid;
+            padding: 5px;
+            background-color: pink;
+            text-align: center;
+
+        }
+
+        .songs1 h3 {
+            padding-top: 10px;
+            border-radius: 40px;
+            border: solid;
+            padding: 5px;
+            background-color: pink;
+
+        }
+
+        #fav1 {
+            margin: 20px;
+            display: flex;
+            /* padding-left:10px; */
+
+        }
+
+        #fav1 img {
+            padding-left: 20px;
+        }
+
+        #fav1 audio {
+            padding-left: 18px;
+            width: 220px;
+            height: 22px;
+
+        }
+
+        img:hover {
+            color: brown;
+            transform: scale(0.9);
+            transition: all .2s ease-in-out;
+            box-shadow: 0px 0px 20px 0px aqua;
+        }
+        #footer{
+            color: rgb(13, 232, 199);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="nav">
+        <h3>MY MUSIC</h3>
+        <h3>HOME</h3>
+        <h3>About</h3>
+        <h3>Premium</h3>
+        <button>
+            <h3>Login</h3>
+        </button>
+    </div>
+    <br>
+    <marquee style=" color: chartreuse;">
+        <b>Music is a love in search of a world</b>
+    </marquee>
+
+
+    <br>
+   
+
+    <div class="songs1">
+        <marquee style=" color: chartreuse;">
+            <b>HOT HITS</b>
+        </marquee>
+        <br>
+        <h3>Telugu  songs</h3>
+
+    </div>
+    <br>
+    <div id="fav1">
+        <div class="play1">
+            <img src="./devara 1.jpeg" width="220px" height="180px">
+            <br>
+            <audio src="./[iSongs.info] 02 - Fear Song.mp3" controls=""></audio>
+        </div>
+        <div class="play2">
+            <img src="./devara 2.jpeg" width="220px" height="180px">
+            <br>
+            <audio src="./[iSongs.info] 03 - Chuttamalle.mp3" controls=""></audio>
+        </div>
+        <div class="play3">
+            <img src="./dasara.jpg" width="220px"
+                height="180px">
+            <br>
+            <audio src="./[iSongs.info] 01 - Dhoom Dhaam.mp3" controls=""></audio>
+        </div>
+        <div class="play4">
+            <img src="./dasara2.jpeg" width="220px" height="180px">
+            <br>
+            <audio src="./[iSongs.info] 03 - Chamkeela Angeelesi.mp3" controls=""></audio>
+        </div>
+        <div class="play5">
+            <img src="./hanuman.jpeg" width="220px" height="180px">
+            <br>
+            <audio src="./[iSongs.info] 06 - Poolamme Pilla.mp3" controls=""></audio>
+        </div>
+    </div>
+    <br>
+    <div class="songs1">
+        <h3>Telugu Folk Songs</h3>
+    </div>
+    <br>
+    <div id="fav1">
+        <div class="play1">
+            <img src="./maxresdefault.jpg" width="220px" height="180px">
+            <br>
+            <audio src="./Malle Chettu Dj Full Song - Telugu Dj Songs.mp3" controls=""></audio>
+        </div>
+        <div class="play2">
+            <img src="./selayeru.jpeg" width="220px" height="180px">
+            <br>
+            <audio src="./Selayeru Paduthunte.mp3" controls=""></audio>
+        </div>
+        <div class="play3">
+            <img src="./seniga cherla.jpeg" width="220px" height="180px">
+            <br>
+            <audio src="./[iSongs.info] 01 - Seniga Chenla Nilabadi Chethuliyave DJ Folk.mp3" controls=""></audio>
+        </div>
+        <div class="play4">
+            <img src="./pushpa.jpeg" width="220px" height="180px">
+            <br>
+            <audio src="./[iSongs.info] 01 - Pushpa Pushpaa.mp3" controls=""></audio>
+        </div>
+        <div class="play5">
+            <img src="./puspa 2.jpeg" width="220px" height="180px">
+            <br>
+            <audio src="./[iSongs.info] 02 - Sooseki.mp3" controls=""></audio>
+        </div>
+    </div>
+<br>
+<br>
+<hr>
+<div id=footer>
+<center>@ Music World</center>
+<br>
+<p>&copy;All rights reserved</p>
+<p>contact: musicworld@outlook.com</p>
+<br>
+<center>$Raghu Ram$</center>
+</div>
+    
+</body>
+</html>
